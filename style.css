@@ -3,8 +3,8 @@
 }
 
 body {
-  font: 1em/1.618 popins, sans-serif;
-
+  font-family: 'Poppins', sans-serif;
+  
   display: flex;
   align-items: center;
   justify-content: center;
