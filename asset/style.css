@@ -1,0 +1,36 @@
+body {
+  font-family: Poppins;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 10px;
+  color: aliceblue;
+  text-align: center;
+  background: url("images/bg-image.jpg");
+}
+
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  width: fit-content;
+  padding: 8px 24px 8px 24px;
+}
+
+p {
+  padding-bottom: 8px;
+}
+
+.icon i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: aliceblue;
+}
