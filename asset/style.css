@@ -1,3 +1,7 @@
+* {
+  overflow: hidden;
+}
+
 body {
   font-family: Poppins;
   display: flex;
