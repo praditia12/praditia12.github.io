@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,8 +33,29 @@ p {
   padding-bottom: 8px;
 }
 
-.icon i {
-  margin-right: 10px;
+.icon a {
+  margin: 0px 5px 0px 5px;
   font-size: 20px;
   color: aliceblue;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon a:hover {
+  transform: scale(1.2);
+}
+
+.icon a[href*="instagram.com"]:hover {
+  color: #E4405F;
+}
+
+.icon a[href*="facebook.com"]:hover {
+  color: #1877F2;
+}
+
+.icon a[href*="github.com"]:hover {
+  color: #333; 
+}
+
+.icon a[href*="linkedin.com"]:hover {
+  color: #0077B5;
 }
